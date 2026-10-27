@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="210dp"
+    android:background="@color/navy_blue"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:paddingLeft="24dp"
+    android:paddingTop="36dp"
+    android:paddingRight="24dp"
+    android:paddingBottom="20dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <ImageView
+        android:id="@+id/ivHeaderLogo"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/ic_symon_logo" />
+
+    <TextView
+        android:id="@+id/tvHeaderAppName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/app_name"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvHeaderTagline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_tagline"
+        android:textColor="#B0BEC5"
+        android:textSize="12sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp"
+        android:background="#33FFFFFF" />
+
+    <TextView
+        android:id="@+id/tvHeaderUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/user_name"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvHeaderUserRole"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/user_role"
+        android:textColor="@color/tech_blue"
+        android:textSize="12sp" />
+
+</LinearLayout>

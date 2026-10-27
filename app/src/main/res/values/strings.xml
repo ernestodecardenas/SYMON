@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">SYMON</string>
+    <string name="app_tagline">Sistema Inteligente de Monitoreo Agrícola</string>
+
+    <!-- Navigation Menu Items -->
+    <string name="menu_dashboard">Inicio / Dashboard</string>
+    <string name="menu_scan_qr">Escanear Lote QR</string>
+    <string name="menu_devices">Mis Dispositivos</string>
+    <string name="menu_history">Historial y Reportes</string>
+    <string name="menu_settings">Configuración de Umbrales</string>
+    <string name="menu_profile">Perfil de Usuario</string>
+    <string name="menu_logout">Cerrar Sesión</string>
+    <string name="menu_session_category">Cuenta y Sesión</string>
+
+    <!-- User Header Info -->
+    <string name="user_name">Ing. Carlos Mendoza</string>
+    <string name="user_role">Productor / Supervisor</string>
+    <string name="user_company">AgroExport Ica S.A.</string>
+
+    <!-- Roles -->
+    <string name="role_producer">Productor / Supervisor</string>
+    <string name="role_warehouse">Encargado de Almacén</string>
+    <string name="role_transporter">Transportista</string>
+
+    <!-- Crops -->
+    <string name="crop_avocado">Palta Hass</string>
+    <string name="crop_blueberry">Arándano Biloxi / Ventura</string>
+    <string name="crop_grape">Uva Red Globe</string>
+    <string name="crop_asparagus">Espárrago Verde</string>
+    <string name="crop_strawberry">Fresa Albion</string>
+
+    <!-- Actions -->
+    <string name="action_login">Iniciar Sesión</string>
+    <string name="action_register">¿No tienes cuenta? Regístrate aquí</string>
+    <string name="action_scan_qr">Escanear Código QR</string>
+    <string name="action_export">Exportar Reporte (PDF/Excel)</string>
+    <string name="action_save">Guardar Configuración</string>
+    <string name="action_refresh">Actualizar Datos</string>
+
+    <!-- Statuses -->
+    <string name="status_optimal">Óptimo</string>
+    <string name="status_caution">Precaución</string>
+    <string name="status_critical">Alerta Crítica</string>
+    <string name="status_connected">Conectado (Wi-Fi/Mesh)</string>
+    <string name="status_offline">Modo Offline (Almacenado local)</string>
+</resources>

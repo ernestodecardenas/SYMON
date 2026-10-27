@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_login">
+
+    <fragment
+        android:id="@+id/nav_login"
+        android:name="com.example.symon.ui.login.LoginFragment"
+        android:label="Iniciar Sesión"
+        tools:layout="@layout/fragment_login">
+        <action
+            android:id="@+id/action_login_to_dashboard"
+            app:destination="@id/nav_dashboard"
+            app:popUpTo="@id/nav_login"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_dashboard"
+        android:name="com.example.symon.ui.dashboard.DashboardFragment"
+        android:label="Dashboard SYMON"
+        tools:layout="@layout/fragment_dashboard">
+        <action
+            android:id="@+id/action_dashboard_to_scanQR"
+            app:destination="@id/nav_scan_qr" />
+        <action
+            android:id="@+id/action_dashboard_to_devices"
+            app:destination="@id/nav_devices" />
+        <action
+            android:id="@+id/action_dashboard_to_history"
+            app:destination="@id/nav_history" />
+        <action
+            android:id="@+id/action_dashboard_to_settings"
+            app:destination="@id/nav_settings" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_scan_qr"
+        android:name="com.example.symon.ui.scan.ScanQRFragment"
+        android:label="Escanear Lote QR"
+        tools:layout="@layout/fragment_scan_qr">
+        <action
+            android:id="@+id/action_scanQR_to_dashboard"
+            app:destination="@id/nav_dashboard"
+            app:popUpTo="@id/nav_dashboard"
+            app:popUpToInclusive="false" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_devices"
+        android:name="com.example.symon.ui.devices.DevicesFragment"
+        android:label="Mis Dispositivos"
+        tools:layout="@layout/fragment_devices" />
+
+    <fragment
+        android:id="@+id/nav_history"
+        android:name="com.example.symon.ui.history.HistoryFragment"
+        android:label="Historial y Reportes"
+        tools:layout="@layout/fragment_history" />
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.example.symon.ui.settings.SettingsFragment"
+        android:label="Configuración de Umbrales"
+        tools:layout="@layout/fragment_settings" />
+
+</navigation>

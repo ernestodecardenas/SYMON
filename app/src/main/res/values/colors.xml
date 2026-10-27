@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Colores Principales SYMON -->
+    <color name="navy_blue">#0F2A4A</color> <!-- Azul Marino: Toolbar, Drawer Header -->
+    <color name="navy_blue_dark">#0A1D34</color>
+    <color name="tech_blue">#00A3E0</color> <!-- Celeste Tecnológico: FAB, acentos -->
+    <color name="tech_blue_dark">#2B6CB0</color>
+
+    <!-- Estados (Semáforo) -->
+    <color name="status_green">#2E7D32</color> <!-- Óptimo -->
+    <color name="status_green_bg">#E8F5E9</color>
+    <color name="status_yellow">#F57C00</color> <!-- Precaución -->
+    <color name="status_yellow_bg">#FFF3E0</color>
+    <color name="status_red">#C62828</color> <!-- Alerta Crítica -->
+    <color name="status_red_bg">#FFEBEE</color>
+
+    <!-- Neutros y Fondos -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="bg_light">#F4F6F9</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="text_primary">#1A1C1E</color>
+    <color name="text_secondary">#5C6066</color>
+    <color name="divider_color">#E0E2EC</color>
+    <color name="icon_tint_inactive">#8E9199</color>
+</resources>
